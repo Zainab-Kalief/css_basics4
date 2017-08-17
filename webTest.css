@@ -1,0 +1,220 @@
+*{
+  font-family: sans-serif;
+  margin: 0;
+  font-weight: lighter;
+}
+
+header{
+  width: 99%;
+  margin: auto;
+  background-color: #f2f2f2;
+  border-radius: 2px;
+}
+  header > div {
+    background-color: #0d0d0d;
+    border-radius: 5px;
+    width: 99.25%;
+    margin-left: 9px;
+  }
+  header > div > aside{
+    display: inline-block;
+    background-color: #261f1c;
+    margin: 0.3% 0% 0.2% 4%;
+    border-radius: 2px;
+    padding: 5px;
+  }
+    header > div > aside > img{
+      width: 40px;
+    }
+    header > div > aside > h2{
+      display: inline-block;
+      color: white;
+      margin: 3px 2px 3px 0px;
+    }
+  header > div > nav{
+    display: inline-block;
+    margin: 15px 0px 0px 200px;
+    vertical-align: top;
+  }
+    header > div > nav h4{
+      display: inline-block;
+      color: white;
+      border-right: 2px solid white;
+      padding: 0px 20px 5px 20px;
+      /*margin: 4px 0px 10px 10px;*/
+    }
+    #nav-contact{
+      border-right: 0px;
+    }
+body > main{
+  width: 99%;
+  margin: auto;
+  padding-top: 20px;
+  background-color: #f2f2f2;
+  border-bottom: 2px solid #dcdcdc;
+}
+  body > main > aside{
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+  }
+    body > main > aside p{
+      margin: 10px 2px 20px 20px;
+      line-height: 1.5;
+      color: grey;
+    }
+    body > main > aside > h1{
+      font-size: 35px;
+      margin: 10px 2px 20px 20px;
+      line-height: 1.5;
+    }
+    body > main > aside > button{
+      text-align: center;
+      padding: 6px 14px;
+      background-color: black;
+      border-radius: 5px;
+      border-style: none;
+      color: white;
+      font-size: 16px;
+      margin: 15px 0px 10px 350px;
+    }
+  body > main > img{
+    width: 48%;
+    margin-left: 20px;
+  }
+article{
+  width: 99%;
+  margin: auto;
+  padding-top: 20px;
+  background-color: #f2f2f2;
+}
+  #main{
+    display: inline-block;
+    width: 69%;
+    vertical-align: top;
+    margin-right: 5px;
+  }
+    #main > section > div{
+      display: inline-block;
+      width: 30%;
+      padding: 10px;
+      border-right: 1px #dcdcdc solid;
+      line-height: 1.5;
+      color: grey;
+    }
+      #section-last{
+        border-right: 0px;
+      }
+      #main > section > div > img{
+        width: 40px;
+      }
+      #main > section > div > h2{
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 5px;
+        color: black;
+      }
+      #main > h2{
+        margin: 20px 0px 10px 10px;
+      }
+      #main > p{
+        margin-left: 10px;
+        line-height: 1.5;
+        color: grey;
+      }
+  article > aside{
+    display: inline-block;
+    width: 30%;
+  }
+    #white-box{
+      height: 98%;
+      width: 100%;
+      background-color: white;
+      vertical-align: bottom;
+      border-radius: 2px;
+    }
+    #aside-article{
+      display: inline-block;
+      width: 56%;
+      padding: 10px 5px 5px 5px;
+    }
+    #aside-article h2, #aside-article p, #aside-article a{
+      padding: 5px 0px 10px 5px;
+      line-height: 1.5;
+    }
+    #aside-article p, #aside-article a{
+      color: grey;
+    }
+    #white-box img{
+      vertical-align: top;
+      width: 35%;
+    }
+body > section{
+  width: 99%;
+  margin: auto;
+  background-color: #0d0d0d;
+}
+  body > section h2{
+    color: white;
+    margin: 20px;
+  }
+  body > section p{
+    color: white;
+    margin: 10px 0px 10px 20px;
+  }
+  body > section > div{
+    display: inline-block;
+  }
+  #section-1, #section-2{
+    width: 33%;
+    vertical-align: top;
+  }
+  #email{
+    margin: 30px 20px;
+  }
+  #section-2 h2{
+    margin-bottom: 45px;
+  }
+  #section-2 p{
+    border-bottom: 0.5px grey solid;
+    padding: 0px 0px 10px 0px;
+  }
+  #section-3{
+    width: 32%;
+  }
+    #section-3 p{
+    line-height: 1.5;
+    }
+    #section-3 div{
+      margin-left: 20px;
+    }
+     input{
+      height: 20px;
+      width: 110px;
+      margin-right: 10px;
+      background-color: #262626;
+      border: 1px black solid;
+      padding-left: 5px;
+      color: grey;
+      }
+      #Phone-Number{
+      height: 20px;
+      width: 240px;
+      margin: 20px 10px 70px 0px;
+      }
+      #section-3 button{
+        height: 30px;
+        width: 75px;
+        border: 1px black solid;
+        background-color: #1c1b1b;
+        color: white;
+        font-size: 15px;
+      }
+footer{
+  width: 99%;
+  margin: auto;
+  background-color: #dcdcdc;
+  text-align: center;
+  padding: 20px 0px;
+  color: grey;
+  }
